@@ -1,0 +1,105 @@
+/* Default Reset css and common css code */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* header css styles */
+.header-banner {
+    text-align: right;
+    margin-right: 230px;
+}
+.header-part{
+    background-image: url(./images/banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 650px;
+    margin-bottom: 115px;
+}
+.header-title {
+    font-size: 65px;
+    padding-left: 815px;
+    padding-top: 170px;
+}
+.header-description {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding-left: 820px;
+}
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+/* my failures history css styles */
+.my-failures-history{
+    display: flex;
+    align-items: center;
+
+}
+.my-failures-history-left {
+    margin-left: 160px;
+}
+.my-failures-history-right {
+    margin-left: 90px;
+}
+.my-failures-history-list {
+    list-style: none;
+}
+.my-failures-history-title {
+    font-size: 40px;
+    padding-right: 400px;
+}
+.my-failures-history-description {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-right: 290px;
+    color: #444343;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: #16D887;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: #16D887;
+    font-size: 30px;
+    margin-right: 10px;
+}
+/* plan part css styles */
+.plan-part-skill{
+    display: flex;
+    padding: -1px 230px;
+    margin-left: 290px;
+    gap: 27px;
+}
+.plan-part {
+    text-align: center;
+}
+.plan-title {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+.plan-skill-name{
+    
+      
+}
+.plan-skill-name-head {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.plan-skill-name-text {
+    color: #737272;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
