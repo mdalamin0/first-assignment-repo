@@ -38,6 +38,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.btn-primary a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .btn-primary:hover{
     background-color: #df480d;
 }
@@ -192,6 +196,10 @@
     font-size: 20px;
     cursor: pointer;
     transition: .4s;
+}
+.contact-btn a {
+    text-decoration: none;
+    color: #F15B22;
 }
 .contact-btn:hover{
     background-color: #b7b5b5;
