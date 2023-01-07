@@ -36,7 +36,64 @@
     background: #F15B22;
     padding: 20px 25px;
     border-radius: 5px;
+    cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: #df480d;
+}
+
+/* about me part css styles */
+
+.abouts {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 145px 145px 117px 168px;
+    text-align: center;
+    width: 820px;
+    margin-left: 195px;
+    margin-bottom: 100px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+
+}
+
+.info li {
+    list-style: none;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #757575;
+}
+
 /* my failures history css styles */
 .my-failures-history{
     display: flex;
@@ -78,7 +135,7 @@
 .plan-part-skill{
     display: flex;
     padding: -1px 230px;
-    margin-left: 290px;
+    margin-left: 195px;
     gap: 27px;
 }
 .plan-part {
@@ -89,9 +146,12 @@
     margin-top: 100px;
     margin-bottom: 55px;
 }
-.plan-skill-name{
-    
-      
+.plan-skill-name {
+    padding: 45px 25px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 5px;
+    margin-bottom: 130px;
+    height: 260px;
 }
 .plan-skill-name-head {
     font-size: 30px;
@@ -100,6 +160,92 @@
 }
 .plan-skill-name-text {
     color: #737272;
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 100px;
 }
+
+/* contact part css styles */
+
+.contact-part {
+    background-image: linear-gradient( to left,#00000017,#Ef5b23), url(./images/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 195px;
+    margin-right: 187px;
+    padding: 60px 615px 60px 64px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    font-size: 40px;
+    margin-bottom: 24px;
+    padding-right: 50px;
+    color: #FFFFFF;
+}
+.contact-btn {
+    border: 0;
+    padding: 20px 34px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* footer part css styles */
+.footer {
+    display: flex;
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #F8F8F8;
+}
+.footer-left {
+    padding-right: 400px;
+}
+.footer-title{
+    font-size: 45px;
+}
+.footer-description {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.footer-description-info {
+    margin-top: 16px;
+}
+.footer-right-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+input.email {
+    color: #F3F3F3;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #b4a6a6;
+    border: 1px solid white;
+    padding: 0 20px;
+    border-radius: 5px;
+    
+}
+.icon-list{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+}
+.icon-list li {
+    margin-right: 25px;
+    font-size: 30px;
+}
+/* anchor tag nth childly design */
+.icon-list li .first {
+    color: none;
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.third{
+    color:#FF0000;
+}
+
+
