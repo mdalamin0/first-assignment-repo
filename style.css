@@ -190,6 +190,11 @@
     color: #F15B22;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+.contact-btn:hover{
+    background-color: #b7b5b5;
 }
 
 /* footer part css styles */
